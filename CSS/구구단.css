@@ -3,28 +3,34 @@
     font-size: 1em;
   }
   50% {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   to {
     font-size: 1em;
   }
 }
 
-h2 {
+h2,
+p {
   text-align: center;
+}
+
+h2 {
   animation-name: title;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 
 h2:first-letter {
-  color: plum;
+  color: red;
 }
 
 p {
   border-style: solid;
   border-radius: 10px;
-  text-align: center;
+  width: 50%;
+  align-content: center;
+  margin: 5px auto;
 }
 
 p:hover {
