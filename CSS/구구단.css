@@ -1,0 +1,33 @@
+@keyframes title {
+  from {
+    font-size: 1em;
+  }
+  50% {
+    font-size: 2em;
+  }
+  to {
+    font-size: 1em;
+  }
+}
+
+h2 {
+  text-align: center;
+  animation-name: title;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+h2:first-letter {
+  color: plum;
+}
+
+p {
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+p:hover {
+  text-decoration: underline;
+  background-color: skyblue;
+}
