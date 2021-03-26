@@ -1,0 +1,12 @@
+#box{
+    border-style: solid;
+    border-color: purple;
+    width: 100px;
+    background-color: silver;
+}
+
+span{
+    font-size: 2em;
+    font-style: italic;
+    color: purple;
+}
